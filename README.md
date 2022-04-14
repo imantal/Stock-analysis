@@ -14,7 +14,7 @@ The VBA macro reads in the year for which the user wants to analyze the stock da
   
 <div align="left"> 
   
- ### Refactored Macro Performance 
+## Refactored Macro Performance 
 The original VBA macro developed through the VBA course is refactored for better computational performance. The major difference between the original and refactored macros is the way that the data for each stock is retrieved from the excel sheets. While the original macro loops over the entire set of data 12 times to calculate the yearly volume and return for all the stocks, the refactored macro loops over the entire set of data only once. This reduces the computational time by a factor of 4-5 as shown in Figures 2 and 3 below. 
   
 <div align="center"> 
